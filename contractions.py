@@ -120,5 +120,6 @@ CONTRACTION_MAP = {
 "you'd've": "you would have",
 "you'll": "you will",
 "you'll've": "you will have",
-"you're": "you are"
+"you're": "you are",
+"you've": "you have"
 }
