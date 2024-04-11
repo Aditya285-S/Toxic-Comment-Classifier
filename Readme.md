@@ -1,6 +1,6 @@
 # Toxic Comment Classifier
 
-This project is a web-based application built using Streamlit to classify toxic comments. The classifier uses TF-IDF (Term Frequency-Inverse Document Frequency) for text feature extraction and a Random Forest Classifier for prediction. The app allows users to input text or upload an image from which text is extracted for classification.
+This project is application built using Streamlit to classify toxic comments. The classifier uses TF-IDF (Term Frequency-Inverse Document Frequency) for text feature extraction and a Random Forest Classifier for prediction. The app allows users to input text or upload an image from which text is extracted for classification.
 
 ## Overview
 
