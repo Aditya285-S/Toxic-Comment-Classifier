@@ -4,4 +4,3 @@ pyspellchecker==0.8.1
 pytesseract==0.3.10
 spellchecker==0.4
 streamlit==1.33.0
-~treamlit==1.28.1
