@@ -93,7 +93,7 @@ def toxic_comment_classifier():
         st.markdown("</div>", unsafe_allow_html=True)
     
     elif button_clicked:
-        st.error('#### Enter the text')
+        st.warning('#### Please enter the text')
 
 
 
@@ -131,9 +131,10 @@ def image_uploader():
             st.error("#### Comment Toxicity: {}%".format(round(prediction[0] * 100),2))
 
         st.markdown("</div>", unsafe_allow_html=True)
+        count = 0
     
-    else:
-        st.error('#### Select the image')
+    elif button_clicked:
+        st.warning('#### Please select an image')
 
 if __name__ == "__main__":
     main()
